@@ -1,0 +1,31 @@
+services:
+  db:
+    image: postgres:17.4-alpine3.21
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+      - postgres_temp:/tmp
+    tmpfs:
+      - /tmp:noexec,nosuid,size=2g
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=$$local-password
+      - POSTGRES_DB=mydatabase
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+    ports:
+      - "5432:5432"
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 2G
+
+volumes:
+  postgres_data:
+  postgres_temp:
+
