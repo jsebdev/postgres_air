@@ -123,3 +123,24 @@ The flights' schedules are 100% imaginary; we guarantee that the flights' durati
 each airport is reachable from any other airport, but the schedule does not resemble any real airline schedule. 
 
 Use at your own risk.
+
+
+# Sebastian Section
+
+## Run the db
+
+```
+docker compose up
+```
+
+
+## Connect to the db
+```
+psql -h localhost -p 5432 -U postgres -d mydatabase
+```
+
+
+## Run scripts
+```
+psql -h localhost -p 5432 -U postgres -d mydatabase -f /scripts/my_script.sql
+```
