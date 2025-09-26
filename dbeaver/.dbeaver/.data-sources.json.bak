@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-199847c44f6-7fce5e1b39165c93": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "postgres_air",
+			"save-password": true,
+			"virtual-model-id": "postgres-jdbc-19983f2040d-2498b00746cd20cb",
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "mydatabase",
+				"url": "jdbc:postgresql://localhost:5432/mydatabase",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
