@@ -2,43 +2,43 @@
 <diagram version="1" name="postgres_air_erm.erd">
 	<entities>
 		<data-source id="postgres-jdbc-199847c44f6-7fce5e1b39165c93">
-			<entity id="1" name="account" fq-name="postgres_air.account" order="0" x="692" y="80">
+			<entity id="1" name="account" fq-name="postgres_air.account" order="0" x="250" y="930">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
-			<entity id="2" name="aircraft" fq-name="postgres_air.aircraft" order="1" x="692" y="1000">
+			<entity id="2" name="aircraft" fq-name="postgres_air.aircraft" order="1" x="676" y="889">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
-			<entity id="3" name="airport" fq-name="postgres_air.airport" order="2" x="692" y="716">
+			<entity id="3" name="airport" fq-name="postgres_air.airport" order="2" x="879" y="669">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
-			<entity id="4" name="boarding_pass" fq-name="postgres_air.boarding_pass" order="3" x="40" y="197">
+			<entity id="4" name="boarding_pass" fq-name="postgres_air.boarding_pass" order="3" x="143" y="357">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
-			<entity id="5" name="booking" fq-name="postgres_air.booking" order="4" x="453" y="208">
+			<entity id="5" name="booking" fq-name="postgres_air.booking" order="4" x="252" y="634">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
-			<entity id="6" name="booking_leg" fq-name="postgres_air.booking_leg" order="5" x="243" y="334">
+			<entity id="6" name="booking_leg" fq-name="postgres_air.booking_leg" order="5" x="431" y="459">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
-			<entity id="7" name="flight" fq-name="postgres_air.flight" order="6" x="453" y="696">
+			<entity id="7" name="flight" fq-name="postgres_air.flight" order="6" x="643" y="593">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
-			<entity id="8" name="frequent_flyer" fq-name="postgres_air.frequent_flyer" order="7" x="905" y="40">
+			<entity id="8" name="frequent_flyer" fq-name="postgres_air.frequent_flyer" order="7" x="432" y="907">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
-			<entity id="9" name="passenger" fq-name="postgres_air.passenger" order="8" x="243" y="50">
+			<entity id="9" name="passenger" fq-name="postgres_air.passenger" order="8" x="30" y="609">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
-			<entity id="10" name="phone" fq-name="postgres_air.phone" order="9" x="453" y="472">
+			<entity id="10" name="phone" fq-name="postgres_air.phone" order="9" x="54" y="925">
 				<path name="postgres_air"/>
 				<path name="mydatabase"/>
 			</entity>
