@@ -9,3 +9,5 @@ backups/**
 .dbeaver-data-sources*.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/dbeaver
+
+ignored
